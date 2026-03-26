@@ -24,3 +24,6 @@ Thumbs.db
 
 # Project specific
 uv.lock
+.python-version
+pr-1-oshkinis/
+src/
