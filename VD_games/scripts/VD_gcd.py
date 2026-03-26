@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""Игра "Проверка на чётность"."""
+"""Игра "Наибольший общий делитель (НОД)"."""
 
-from VD_games.games.even import generate_question
+from VD_games.games.gcd import generate_question
 from VD_games.games.engine import run_game
 
 
 def main():
     """Запускает игру."""
-    game_description = 'Answer "yes" if the number is even, otherwise answer "no".'
+    game_description = "Find the greatest common divisor of given numbers."
     run_game(generate_question, game_description)
 
 
