@@ -1,4 +1,4 @@
 """Games module."""
-from VD_games.games import calc, even, gcd
+from VD_games.games import calc, even, gcd, progression, prime
 
-__all__ = ["calc", "even", "gcd"]
+__all__ = ["calc", "even", "gcd", "progression", "prime"]

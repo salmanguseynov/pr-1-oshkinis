@@ -8,25 +8,18 @@ version = "0.1.0"
 description = "Brain Games collection"
 readme = "README.md"
 requires-python = ">=3.8"
-dependencies = [
-    "prompt",
-]
+dependencies = []
 
 [project.scripts]
 VD_games = "VD_games.scripts.VD_games:main"
 VD-even = "VD_games.scripts.VD_even:main"
 VD-calc = "VD_games.scripts.VD_calc:main"
 VD-gcd = "VD_games.scripts.VD_gcd:main"
+VD-progression = "VD_games.scripts.VD_progression:main"
+VD-prime = "VD_games.scripts.VD_prime:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["VD_games"]
-
-[tool.hatch.build.targets.sdist]
-include = [
-    "/VD_games",
-    "/README.md",
-    "/pyproject.toml",
-]
 
 [tool.ruff]
 line-length = 79
